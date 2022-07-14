@@ -28,12 +28,12 @@ export const Header = () => {
       } fixed top-0 z-50 flex w-full items-center justify-between px-4 py-4 transition-all lg:px-10 lg:py-6`}
     >
       <div className="flex items-center space-x-2 md:space-x-10 md:px-2 md:py-1">
-        <div className="flex justify-center flex-col">
+        <div className="flex justify-center space-x-3 items-center">
           <Image
             src="/icons/popcorn.svg"
             alt="Sini Nonton"
-            width={80}
-            height={80}
+            width={40}
+            height={40}
             className="cursor-pointer object-contain"
           />
           <h1 className="text-xl font-bold text-white">Sini Nonton</h1>
